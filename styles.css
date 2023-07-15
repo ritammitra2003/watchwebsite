@@ -1,0 +1,136 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url(watch1.jpg);
+    background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Features section styles */
+  .features {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+  }
+  
+  .feature img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .heading{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image{
+    margin-left: 1000px;
+    margin-bottom:1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
